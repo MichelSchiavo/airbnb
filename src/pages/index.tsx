@@ -6,6 +6,7 @@ import { cardsDataProps, HomeProps } from "utils/types";
 import { SmallCard } from "components/SmallCard";
 import { MediumCard } from "components/MediumCard";
 import { LargeCard } from "components/LargeCard";
+import { Footer } from "components/Footer";
 
 const Home: NextPage<HomeProps> = (props: HomeProps) => {
   const { exploreData, cardsData } = props;
@@ -48,6 +49,8 @@ const Home: NextPage<HomeProps> = (props: HomeProps) => {
           buttonText="Get Inspired"
         />
       </main>
+
+      <Footer />
     </div>
   );
 };
