@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { exploreDataProps } from "utils/types";
+import { ExploreDataProps } from "utils/types";
 
-interface SmallCardProps extends exploreDataProps {}
+interface SmallCardProps extends ExploreDataProps {}
 
 export function SmallCard(props: SmallCardProps) {
   return (

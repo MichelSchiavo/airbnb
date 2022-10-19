@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { cardsDataProps } from "utils/types";
+import { CardsDataProps } from "utils/types";
 
-export function MediumCard(props: cardsDataProps) {
+export function MediumCard(props: CardsDataProps) {
   return (
     <div className="cursor-pointer hover:scale-105 transition transform duration-300 ease-out">
       <div className="relative h-80 w-80">
