@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "components/Header";
 import { Banner } from "components/Banner";
-import { cardsDataProps, HomeProps } from "utils/types";
+import { CardsDataProps, HomeProps } from "utils/types";
 import { SmallCard } from "components/SmallCard";
 import { MediumCard } from "components/MediumCard";
 import { LargeCard } from "components/LargeCard";
@@ -64,7 +64,7 @@ export async function getStaticProps() {
   ).then((res) => res.json());
 
   //https://links.papareact.com/zp1
-  const cardsData: cardsDataProps = await fetch(
+  const cardsData: CardsDataProps = await fetch(
     "https://www.jsonkeeper.com/b/VHHT"
   ).then((res) => res.json());
 
