@@ -1,27 +1,42 @@
-# Next.js + Tailwind CSS Example
+# Simple Rbnb project
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Project description
 
-## Deploy your own
+### Images
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032781228266500096/unknown.png?width=1248&height=670" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032781305655591012/unknown.png?width=1245&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032781394511937536/unknown.png?width=1248&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032781486979567717/unknown.png?width=1247&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032781548463861851/unknown.png?width=1248&height=670" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032781619481804910/unknown.png?width=1244&height=671" alt="Imagem do projeto">
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032782906948591646/unknown.png?width=314&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032782993695182928/unknown.png?width=315&height=670" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032783034958741564/unknown.png?width=316&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032783099773333655/unknown.png?width=302&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032783308267999302/unknown.png?width=317&height=671" alt="Imagem do projeto">
+<img src="https://media.discordapp.net/attachments/1032781197568381050/1032784082377134120/unknown.png?width=317&height=671" alt="Imagem do projeto">
 
-## How to use
+## :hammer: Technologies used
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- React
+- React-dom
+- React-date-range
+- Next
+- @badrap/bar-of-progress
+- @heroicons/react
+- Date-fns
+- Tailwindcss
+- Typescript
+- Autoprefixer
+- Postcss
+- Tailwind-scrollbar-hide
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## :computer: How to run the project
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. `$ git clone https://github.com/MichelSchiavo/airbnb` to clone the project
+2. `$ yarn ` to install project dependencies
+3. `$ yarn dev` to start the local server under development
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## :loud_sound: Currently, the data is consuming a Mocked API, but it can consume a dynamic API as well.
